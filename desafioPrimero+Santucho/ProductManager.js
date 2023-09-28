@@ -126,7 +126,7 @@ pm.addProduct('', 'Zanahorias organicas', 500, 'image.jpg', 1005, -1)
 console.log(pm.getProducts());
 
 
-// Buscar productos: Resultado OK (deberia traer producto Pera)
+// Buscar productos: Resultado OK (deberia traer el producto Pera)
 console.log(pm.getProductById(2))
 
 // Buscar productos: not found
