@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"title": "Uvas grandes",
+		"description": "Uvas grandes con carozo",
+		"price": 450,
+		"thumbnail": "url",
+		"code": 9999,
+		"stock": 50
+	},
+	{
+		"id": 3,
+		"title": "Uvas",
+		"description": "Manzanas rojas de estación",
+		"price": 450,
+		"thumbnail": "url",
+		"code": 1001,
+		"stock": 50
+	},
+	{
+		"id": 4,
+		"title": "Peras",
+		"description": "Peras rojas de granja",
+		"price": 500,
+		"thumbnail": "url",
+		"code": 1002,
+		"stock": 50
+	}
+]

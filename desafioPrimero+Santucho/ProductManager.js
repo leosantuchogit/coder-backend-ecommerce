@@ -1,3 +1,29 @@
+/* Refactoring
+
+Vos podrias guardar en un objeto las propiedades por ejemplo : 
+
+
+newObject = { 
+
+title,
+
+product,
+
+etc...}
+
+
+Entonces vos a ese objeto lo que podes hacer es usar el metodo Object.values(newObject) y te va a devolver todos los valores de ese objeto,  y en base a lo que te devuelve si alguno no tiene valor devolves un alerta
+
+
+const values = Object.values(newObject) esto devuelve un array
+
+if (values.some(item => item === null) // aca validas si alguno campo es nulo
+
+console.alert('algun alerta') // devolves un alerta del tipo que vos quieras retornar lo que vos quieras algo asi explicado por encima jajaj
+
+*/
+
+
 class ProductManager {
     #error
     #products
