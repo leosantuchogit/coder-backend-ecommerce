@@ -2,7 +2,6 @@ import { Router } from 'express'
 import ProductManager from '../managers/productManager.js'
 
 const router = Router()
-const products = []
 
 router.use(function(req, res, next) {
     console.log('Router: products');
