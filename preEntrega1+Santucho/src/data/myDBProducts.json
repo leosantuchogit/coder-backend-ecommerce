@@ -1,0 +1,117 @@
+[
+	{
+		"id": 1,
+		"title": "Uvas grandes",
+		"description": "Uvas grandes con carozo",
+		"price": 450,
+		"thumbnail": [
+			"url1",
+			"url2",
+			"url3"
+		],
+		"code": 9999,
+		"stock": 50,
+		"status": true,
+		"category": "Frutas"
+	},
+	{
+		"id": 2,
+		"title": "Peras",
+		"description": "Peras rojas de granja",
+		"price": 500,
+		"thumbnail": [
+			"url1",
+			"url2",
+			"url3"
+		],
+		"code": 1002,
+		"stock": 50,
+		"status": true,
+		"category": "Frutas"
+	},
+	{
+		"id": 3,
+		"title": "Uvas",
+		"description": "Manzanas rojas de estación",
+		"price": 450,
+		"thumbnail": [
+			"url1",
+			"url2",
+			"url3"
+		],
+		"code": 1001,
+		"stock": 50,
+		"status": true,
+		"category": "Frutas"
+	},
+	{
+		"id": 4,
+		"title": "Pelones",
+		"description": "Pelones de verdad",
+		"price": 450,
+		"code": 1100,
+		"stock": 10,
+		"status": true,
+		"category": "Frutas"
+	},
+	{
+		"id": 5,
+		"title": "Zapallo",
+		"description": "Zapallo de verdad",
+		"price": 550,
+		"code": 1200,
+		"stock": 10,
+		"status": true,
+		"category": "Verduras"
+	},
+	{
+		"id": 6,
+		"title": "Zapallo",
+		"description": "Zapallo de verdad",
+		"price": 550,
+		"code": 1300,
+		"stock": 10,
+		"status": true,
+		"category": "Verduras"
+	},
+	{
+		"id": 8,
+		"title": "Palta",
+		"description": "Palta",
+		"price": 550,
+		"thumbnail": [
+			"url0",
+			"url10"
+		],
+		"code": 1500,
+		"stock": 10,
+		"status": true,
+		"category": "Verduras"
+	},
+	{
+		"id": 9,
+		"title": "Mermelada",
+		"description": "Mermelada",
+		"price": 550,
+		"thumbnail": [
+			"url0",
+			"url10"
+		],
+		"code": 7777,
+		"stock": 10,
+		"status": true
+	},
+	{
+		"id": 10,
+		"title": "Pasas de uva",
+		"description": "Pasas de uva grandes",
+		"price": 550,
+		"thumbnail": [
+			"url0",
+			"url10"
+		],
+		"code": 99999,
+		"stock": 10,
+		"status": true
+	}
+]
