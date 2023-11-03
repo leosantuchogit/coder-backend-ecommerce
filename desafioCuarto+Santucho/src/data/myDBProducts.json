@@ -103,11 +103,20 @@
 	},
 	{
 		"id": 10,
-		"title": "1",
-		"description": "1",
-		"price": "1",
-		"code": "11111",
-		"stock": "1",
+		"title": "Ciruela",
+		"description": "Ciruela",
+		"price": "10",
+		"code": "0000121",
+		"stock": "1000",
+		"status": true
+	},
+	{
+		"id": 11,
+		"title": "Ajo",
+		"description": "Ajo",
+		"price": "10",
+		"code": "0012221",
+		"stock": "10",
 		"status": true
 	}
 ]

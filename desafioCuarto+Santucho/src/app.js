@@ -19,10 +19,8 @@ app.use(Express.json())
 app.use(Express.urlencoded({extended: true}))
 app.use(Express.static(__dirname + '/public'))
 
-
 // Views
 app.use('/', RouterViews) // Gestiona las vistas
-
 
 // Apis
 app.use('/api/products', RouterProducts)
@@ -38,7 +36,9 @@ const io = new Server(httpServer)
 
 io.on('connection', socket => {
     console.log('New client connected');
+
+    // Escucha en el canal 'ProductList' y cuando tiene alguna actualizacion emite actualizacion de prodcutos
     socket.on('productList', data => {
-        io.emit('updatedPorducts', data)
+        io.emit('updatedProducts', data)
     })
 })
