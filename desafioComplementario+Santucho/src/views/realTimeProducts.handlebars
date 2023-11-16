@@ -1,0 +1,96 @@
+<div>
+    <h2>Real time products</h2>
+
+    <hr>
+
+    <div>
+        <div>
+            <h5>Formulario para crear producto</h5>
+        </div>
+        <div>
+            <form id="form">
+                <div>
+                    <label>Producto:</label>
+                    <input type="text" name="title" id="title"/>
+                </div>
+                <div>
+                    <label for="description">Descripción:</label>
+                    <input
+                        type="text"
+                        name="description"
+                        id="description"
+                    />
+                </div>
+                <div>
+                    <label for="price">Precio:</label>
+                    <input
+                        type="number"
+                        name="price"
+                        id="price"
+                    />
+                </div>
+                <div>
+                    <label for="code">Código:</label>
+                    <input type="text" name="code" id="code" />
+                </div>
+                <div class="mb-2">
+                    <label for="category">Categoría:</label>
+                   <input
+                        type="text"
+                        name="category"
+                        id="category"
+                    />
+                </div>
+                <div class="mb-2">
+                    <label for="stock">Stock:</label>
+                    <input
+                        type="number"
+                        name="stock"
+                        id="stock"
+                    />
+                </div>
+                <button
+                    type="submit"
+                    id="addProduct"
+                >Crear Producto</button>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+
+    <table id="productsTable">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Código</th>
+                <th>Categoría</th>
+                <th>Stock</th>
+                <th>Gestión</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            {{#each products}}
+                <tr>
+                    <td class="text-start">{{this.title}}</td>
+                    <td class="text-start">{{this.description}}</td>
+                    <td>{{this.price}}</td>
+                    <td>{{this.code}}</td>
+                    <td>{{this.category}}</td>
+                    <td>{{this.stock}}</td>
+                    <td>
+                        <button
+                            onclick="deleteProduct({{this.id}})"
+                            id="btnDelete"
+                        >Eliminar</button>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>

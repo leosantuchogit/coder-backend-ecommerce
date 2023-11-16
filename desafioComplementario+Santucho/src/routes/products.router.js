@@ -16,6 +16,8 @@ router.get('/', async (req, res) => {
         const productManager = new ProductManager('./src/data/myDBProducts.json')
         const limit = req.query?.limit 
         const products = await productManager.getProducts()
+
+        console.log('products.router:', products);
     
         if (!products) {
             return res.status(404).json({ error: 'Products not found' })
@@ -157,5 +159,7 @@ router.delete('/:pid', async(req, res) => {
 
 
 })
+
+
 
 export default router
