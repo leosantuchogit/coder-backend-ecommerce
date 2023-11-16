@@ -1,3 +1,10 @@
 
 # ignoro todos files de la carpeta clases
 /clases
+
+# ignoro carpetas node_modules
+/desafioTercero+Santucho/node_modules
+/desafioCuarto+Santucho/node_modules
+/preEntrega1+Santucho/node_modules
+/desafioComplementario+Santucho/node_modules
+
