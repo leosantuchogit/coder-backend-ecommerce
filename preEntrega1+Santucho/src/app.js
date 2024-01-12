@@ -15,4 +15,4 @@ app.use(function(req, res, next){
 app.use('/api/products', RouterProducts)
 app.use('/api/carts', RouterCarts)
 
-app.listen(8080, () => console.log('Server express is listening on port 8080 ...'))
+app.listen(8080, () => console.log('Server express is listening on port 8080 now ...'))
